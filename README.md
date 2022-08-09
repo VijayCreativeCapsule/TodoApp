@@ -46,8 +46,5 @@ react-native run-android
 * [React-Native](https://facebook.github.io/react-native/) - React-Native Framework
 * [MobX](https://github.com/mobxjs/mobx) - MobX State Management
 
-## Authors
-
-* **Vijay Gupta** - *Initial work* - [Vijay](https://github.com/VijayCreativeCapsule)
 
 
