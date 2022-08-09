@@ -4,7 +4,7 @@
 
 This is a simple Todo application that uses MobX as state management. All the Todo's will be managed in MobX stores a
 
-![ScreenShot](https://github.com/VijayCreativeCapsule/TodoApp/tree/main/screenshots/Scree1.jpeg)
+![ScreenShot](https://github.com/VijayCreativeCapsule/TodoApp/tree/main/screenshots/scree1.jpeg)
 
 
 ## Getting Started
