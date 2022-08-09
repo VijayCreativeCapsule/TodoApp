@@ -2,7 +2,7 @@
 
 ![issues Badge](https://img.shields.io/github/issues/VijayCreativeCapsule/TodoApp?style=plastic)
 
-This is a simple Todo application that uses MobX as state management. All the Todo's will be managed in MobX stores a
+This is a simple Todo application that uses MobX as state management. All the Todo's will be managed in MobX stores 
 
 ![ScreenShot](https://github.com/VijayCreativeCapsule/TodoApp/blob/main/screenshots/MergedImages.png)
 
