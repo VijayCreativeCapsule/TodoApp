@@ -48,6 +48,6 @@ react-native run-android
 
 ## Authors
 
-* **Vijay Gupta** - *Initial work* - [Jadrizk](https://github.com/JadRizk)
+* **Vijay Gupta** - *Initial work* - [Vijay](https://github.com/VijayCreativeCapsule)
 
 
