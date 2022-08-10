@@ -5,7 +5,6 @@ import {inject, observer} from 'mobx-react';
 
 import styles from './MainContainer.style';
 
-// import CardView from '../../Components/CardView/CardView';
 
 type Props = {
     children: JSX.Element,
