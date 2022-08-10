@@ -8,7 +8,7 @@ import { StoreProvider,rootStore } from './store/rootStore';
 
 
 
-const App = () => {
+const App:React.FC = () => {
   return (
     <StoreProvider value={rootStore}>
       <Home />

@@ -1,14 +1,15 @@
 import { types, Instance } from 'mobx-state-tree';
 import React, { createContext } from 'react';
-import { todoStore, TodoStoreInitialState } from './todoStore';
+import TodoStore from './todoStore';
+// import { todoStore, TodoStoreInitialState } from './todoStore';
 
 
 export const rootStore = types
   .model({
-      todoStore:todoStore
+      todoStore:TodoStore.Store
   })
   .create({
-    todoStore:TodoStoreInitialState
+      todoStore:TodoStore.TodoStoreInitialState
   });
 
 

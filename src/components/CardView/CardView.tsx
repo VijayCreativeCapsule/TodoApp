@@ -14,7 +14,7 @@ const CardView = () => {
 
     const { todoStore } = useStore();
 
-    const [text, setText] = React.useState('')
+    const [text, setText] = React.useState<string>('')
     const addTodoHandler = () => {
         if (!text) return
         todoStore.addTodo(text)

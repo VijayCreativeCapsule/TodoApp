@@ -4,7 +4,7 @@ import CardView from '../components/CardView/CardView';
 import MainContainer from '../Container/MainContainer/MainContainer';
 
 
-const Home = () => {
+const Home:React.FC = () => {
   return (
     <MainContainer>
       <CardView />

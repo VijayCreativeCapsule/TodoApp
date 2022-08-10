@@ -2,7 +2,9 @@ import {StyleSheet} from 'react-native';
 
 export default StyleSheet.create({
 	listContainer: {
-		alignItems: 'center'
+		alignItems: 'center',
+		height:2*277,
+
 	},
 	noTodoText: {
 		alignSelf: 'center',

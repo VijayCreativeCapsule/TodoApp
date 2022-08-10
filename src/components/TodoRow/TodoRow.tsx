@@ -7,7 +7,8 @@ import { useStore } from '../../hooks/useStore';
 import styles from './TodoRow.style';
 
 
-const TodoRow =({todo}:any)=>{
+const TodoRow:React.FC<any> =({todo})=>{
+
     const { todoStore } = useStore();
     return (
         <View style={styles.container}>

@@ -7,7 +7,7 @@ import TodoRow from '../TodoRow/TodoRow';
 import styles from './TodoList.style';
 
 
-const TodoList =()=>{
+const TodoList:React.FC =()=>{
     const { todoStore } = useStore();
 		return (
             <View style={styles.listContainer}>
