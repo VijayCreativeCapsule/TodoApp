@@ -2,9 +2,9 @@
 
 ![issues Badge](https://img.shields.io/github/issues/VijayCreativeCapsule/TodoApp?style=plastic)
 
-This is a simple Todo application that uses MobX as state management. All the Todo's will be managed in MobX stores a
+This is a simple Todo application that uses MobX as state management. All the Todo's will be managed in MobX stores 
 
-![ScreenShot](https://github.com/VijayCreativeCapsule/TodoApp/blob/master/docs/assets/Scree1.jpeg)
+![ScreenShot](https://github.com/VijayCreativeCapsule/TodoApp/blob/main/screenshots/MergedImages.png)
 
 
 ## Getting Started
@@ -46,8 +46,5 @@ react-native run-android
 * [React-Native](https://facebook.github.io/react-native/) - React-Native Framework
 * [MobX](https://github.com/mobxjs/mobx) - MobX State Management
 
-## Authors
-
-* **Vijay Gupta** - *Initial work* - [Jadrizk](https://github.com/JadRizk)
 
 

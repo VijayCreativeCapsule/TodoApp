@@ -1,6 +1,5 @@
 import { types } from 'mobx-state-tree';
 
-
 class TodoStore {
   constructor(){}
 
