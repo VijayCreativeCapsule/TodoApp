@@ -1,7 +1,11 @@
-import { types } from 'mobx-state-tree';
+class TodoStore {
+  constructor(){}
 
-export const Todo = types
-  .model("Todo", {
+
+  static TodoStoreInitialState = {
+    todos: []
+}
+ static todo=types.model("Todo", {
     id: types.optional(types.number, () => Math.random()),
     title: types.string,
     finished: false
@@ -13,11 +17,10 @@ export const Todo = types
   }));
 
 
-
-export const todoStore = types
+  static Store =types
   .model("TodoStore", {
-    active: types.safeReference(Todo),
-    todos: types.array(Todo)
+    active: types.safeReference(this.todo),
+    todos: types.array(this.todo)
   })
   .views(self => ({
     get unfinishedTodoCount() {
@@ -38,9 +41,6 @@ export const todoStore = types
     }
   }));
 
-export const TodoStoreInitialState = {
-    todos: [
- 
-
-    ]
 }
+
+export default TodoStore
